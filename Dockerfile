@@ -116,8 +116,6 @@ RUN apt-get update && apt-get upgrade -y && apt-get install --no-install-recomme
     gdal-bin \
     libgdal-dev \
     libpq-dev \
-    libxml2 \
-    libxslt1.1 \
     openssl \
  && apt-get install --only-upgrade -y openssl ca-certificates \
  && update-ca-certificates \
